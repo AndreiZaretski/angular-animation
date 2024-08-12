@@ -1,5 +1,4 @@
 {
-  "printWidth": 135,
   "singleQuote": true,
   "trailingComma": "all",
   "arrowParens": "avoid",
@@ -8,5 +7,13 @@
   "bracketSpacing": true,
   "bracketSameLine": true,
   "semi": true,
-  "endOfLine": "lf"
+  "endOfLine": "lf",
+  "overrides": [
+    {
+      "files": "*.html",
+      "options": {
+        "singleQuote": false
+      }
+    }
+  ]
 }
